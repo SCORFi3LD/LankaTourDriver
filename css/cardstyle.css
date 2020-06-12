@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2019, 5:13:09 PM
+    Author     : SCORFi3LD
+*/
+
+.product-card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex: 1 0 0%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.product-card:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .15)
+}
+
+.product-card img{
+    height: 160px;
+    transition: transform 0.5s ease-in-out;
+    margin-bottom: 10px;
+}
+.product-card img:hover{
+    transform: scale(1.05);
+}
+.card-tag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 4px;
+}
+.card-price{
+    color: rgb(76, 175, 80);
+    font-weight: bold;
+    font-size: 15px;
+}
+.card-button{
+    color: #1080d0;
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-title{
+    margin: auto 8px;
+    margin-bottom: 10px;
+}
+.card-text{
+    margin: auto 8px;
+}
+.float-left{
+    float: left;
+    margin: 10px;
+}
+.float-right{
+    float: right;
+    margin: 10px;
+}
+.pt-3{
+    padding-top: 20px;
+}
