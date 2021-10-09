@@ -1,8 +1,8 @@
 <?php
 
 $host = 'localhost';
-$user = 'lankparb_root';
-$password = 'a1dbHE2snGDy';
+$user = 'root';
+$password = '1234';
 $database = 'lankparb_tours';
 
 $link = mysqli_connect($host, $user, $password, $database);

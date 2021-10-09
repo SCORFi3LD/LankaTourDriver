@@ -1,3 +1,5 @@
 
 .htaccess
 php/PDBC.php
+/nbproject/private/
+/img/blog/
