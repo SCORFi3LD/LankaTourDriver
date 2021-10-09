@@ -215,7 +215,7 @@
                 $('#content').load("php/loadblogs.php?page="+ page);
             });
 
-            var page = 0
+            var page = 0;
             $(window).scroll(function() {
                 if($(window).scrollTop() == $(document).height() - $(window).height()) {
                     page += 10;
